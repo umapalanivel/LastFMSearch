@@ -112,6 +112,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53B8B28324AC5BD800485D78 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				53D33EB024AA78F100AC3BD9 /* URLConstructor.swift */,
+				53D33EB224AA791D00AC3BD9 /* Header.swift */,
+				53D33EAE24AA78B100AC3BD9 /* APIRequestProcessor.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		53B8B28424AC5BEF00485D78 /* CommonUtils */ = {
+			isa = PBXGroup;
+			children = (
+				53D33EB624AA7B5900AC3BD9 /* GCDHelper.swift */,
+				53D33EB824AA7B7800AC3BD9 /* UIImage+Extension.swift */,
+			);
+			path = CommonUtils;
+			sourceTree = "<group>";
+		};
+		53B8B28524AC5C0100485D78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53D33EBA24AA7B9D00AC3BD9 /* Artist.swift */,
+				53D33EBC24AA7BD000AC3BD9 /* Track.swift */,
+				53D33EBE24AA7BEF00AC3BD9 /* Album.swift */,
+				53D33EC024AA7C0800AC3BD9 /* Image.swift */,
+				53D33EC224AA7C1C00AC3BD9 /* Results.swift */,
+				53D33EC424AA7C5200AC3BD9 /* ResultBuilder.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		53B8B28624AC5C0C00485D78 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				53D33EB424AA7B1900AC3BD9 /* ResultTableViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		53B8B28724AC5C1B00485D78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				53D33E8024AA12A100AC3BD9 /* ViewController.swift */,
+				53D33EC624AA7CDA00AC3BD9 /* ResultsTableViewCell.swift */,
+				53D33EAC24AA732400AC3BD9 /* SearchResultViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		53D33E7024AA12A100AC3BD9 = {
 			isa = PBXGroup;
 			children = (
@@ -135,24 +185,14 @@
 		53D33E7B24AA12A100AC3BD9 /* LastFMSearch */ = {
 			isa = PBXGroup;
 			children = (
+				53B8B28424AC5BEF00485D78 /* CommonUtils */,
+				53B8B28324AC5BD800485D78 /* Network */,
+				53B8B28524AC5C0100485D78 /* Model */,
+				53B8B28624AC5C0C00485D78 /* ViewModel */,
+				53B8B28724AC5C1B00485D78 /* Views */,
 				53D33E7C24AA12A100AC3BD9 /* AppDelegate.swift */,
-				53D33EB024AA78F100AC3BD9 /* URLConstructor.swift */,
-				53D33EB224AA791D00AC3BD9 /* Header.swift */,
 				53D33E7E24AA12A100AC3BD9 /* SceneDelegate.swift */,
-				53D33E8024AA12A100AC3BD9 /* ViewController.swift */,
-				53D33EB424AA7B1900AC3BD9 /* ResultTableViewModel.swift */,
-				53D33EC624AA7CDA00AC3BD9 /* ResultsTableViewCell.swift */,
-				53D33EB624AA7B5900AC3BD9 /* GCDHelper.swift */,
-				53D33EB824AA7B7800AC3BD9 /* UIImage+Extension.swift */,
-				53D33EBA24AA7B9D00AC3BD9 /* Artist.swift */,
-				53D33EBC24AA7BD000AC3BD9 /* Track.swift */,
-				53D33EBE24AA7BEF00AC3BD9 /* Album.swift */,
-				53D33EC024AA7C0800AC3BD9 /* Image.swift */,
-				53D33EC224AA7C1C00AC3BD9 /* Results.swift */,
-				53D33EC424AA7C5200AC3BD9 /* ResultBuilder.swift */,
 				53D33E8224AA12A100AC3BD9 /* Main.storyboard */,
-				53D33EAC24AA732400AC3BD9 /* SearchResultViewController.swift */,
-				53D33EAE24AA78B100AC3BD9 /* APIRequestProcessor.swift */,
 				53D33E8524AA12A200AC3BD9 /* Assets.xcassets */,
 				53D33E8724AA12A200AC3BD9 /* LaunchScreen.storyboard */,
 				53D33E8A24AA12A200AC3BD9 /* Info.plist */,

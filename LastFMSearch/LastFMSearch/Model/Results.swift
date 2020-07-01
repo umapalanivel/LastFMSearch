@@ -12,6 +12,7 @@ import UIKit
 
 protocol Match {}
 
+
 protocol SearchCriteria {
     var id: String { get }
     var name: String { get }
@@ -25,7 +26,6 @@ struct Result {
     var imageUrl: String
     var type: SearchType
 }
-
 
 
 extension Result {
